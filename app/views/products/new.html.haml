@@ -1,0 +1,11 @@
+= link_to 'Products list', products_path
+%h1 Import product from Walmart
+
+= form_tag('/products') do
+  .fields
+    = text_field_tag 'product_url', nil, placeholder: 'Walmart product url', class: 'input-large'
+    %br
+    do not import reviews with words:
+    %br
+    = text_field_tag 'review_black_list', nil, placeholder: 'words separated by commas', class: 'input-large'
+  = submit_tag 'Import'

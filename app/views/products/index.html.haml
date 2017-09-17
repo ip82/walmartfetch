@@ -1,0 +1,9 @@
+%h1 Walmart fetcher
+
+= link_to 'import product', new_product_path
+
+- @products.each do |product|
+  %h3= link_to product.name, product_path(product)
+  %h4
+    price:
+    = price(product.price)

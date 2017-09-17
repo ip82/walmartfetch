@@ -1,0 +1,77 @@
+---
+http_interactions:
+- request:
+    method: get
+    uri: http://api.walmartlabs.com/v1/reviews/21268095?apiKey=7eghsah35cp9am44jyayfx6t&format=json
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+      User-Agent:
+      - Ruby
+      Host:
+      - api.walmartlabs.com
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Content-Type:
+      - application/json; charset=utf-8
+      Date:
+      - Sun, 17 Sep 2017 17:42:44 GMT
+      Server:
+      - Mashery Proxy
+      X-Mashery-Responder:
+      - prod-j-worker-us-west-1b-58.mashery.com
+      Content-Length:
+      - '4398'
+      Connection:
+      - keep-alive
+    body:
+      encoding: UTF-8
+      string: '{"itemId":21268095,"name":"Disney Minnie Mouse Bow-Tique Headphones","salePrice":20.49,"upc":"092298912479","categoryPath":"Electronics/Audio/Headphones/Headphones","brandName":"Minnie
+        Mouse","productTrackingUrl":"http://linksynergy.walmart.com/fs-bin/click?id=|LSNID|&offerid=223073.7200&type=14&catid=8&subid=0&hid=7200&tmpid=1082&RD_PARM1=http%253A%252F%252Fwww.walmart.com%252Fip%252F21268095%253Faffp1%253DUdc7Zi7aV22Ixmdv09sOlO5fD1Ish18L6pFZTAk9ZRE%2526affilsrc%253Dapi","productUrl":"http://c.affil.walmart.com/t/api06?l=http%3A%2F%2Fwww.walmart.com%2Fip%2F21268095%3Faffp1%3DUdc7Zi7aV22Ixmdv09sOlO5fD1Ish18L6pFZTAk9ZRE%26affilsrc%3Dapi%26veh%3Daff%26wmlspartner%3Dreadonlyapi","categoryNode":"[\"0\",\"3944\",\"133251\",\"1095191\",\"4480\"]","reviews":[{"name":"Disney
+        Minnie Mouse Bow-Tique Headphones","overallRating":{"label":"Overall","rating":"5"},"productAttributes":[{"label":"Value","rating":"5"},{"label":"Meets
+        Expectations","rating":"5"}],"reviewer":"VCCP","reviewText":"We bought these
+        for my two-year old for her iPod. They are absolutely adorable, and work as
+        described. I noticed she had the volume all the way up on her iPod, but the
+        headphones were not blasting; they remained at a normal volume for her little
+        ears. I HIGHLY recommend these!","submissionTime":"2012-12-28T20:37:59","title":"Perfect!","upVotes":"6","downVotes":"0"},{"name":"Disney
+        Minnie Mouse Bow-Tique Headphones","overallRating":{"label":"Overall","rating":"5"},"productAttributes":[{"label":"Value","rating":"5"},{"label":"Meets
+        Expectations","rating":"5"}],"reviewer":"cltjjt","reviewText":"I bought these
+        as a gift for my 4 year old daughter''s birthday. She can easily plug them
+        into her iPod and they stay in place on her head even while she''s dancing.
+        Definitely worth the money! Hopefully they last a long time.","submissionTime":"2012-10-06T20:16:22","title":"Perfect
+        gift for my 4 year old.","upVotes":"37","downVotes":"0"},{"name":"Disney Minnie
+        Mouse Bow-Tique Headphones","overallRating":{"label":"Overall","rating":"5"},"productAttributes":[{"label":"Value","rating":"5"},{"label":"Learning
+        Features","rating":"5"},{"label":"Meets Expectations","rating":"5"}],"reviewer":"fourgirlsihave","reviewText":"I
+        actually wore them for awhile and they are very comfortable. The volume restiction
+        on them is not an issue either they still are plenty loud for adults or kids.
+        My oldest daughter whom is 16 loves them. We also have a pair of the monsters
+        inc. ones as well and they are just GREAT!!! I would recommend these to kids
+        of any age. I mean why not wear characters that you like be yourself and have
+        fun that''s what I always tell my kids. Seriously they are very good quality
+        for the price and comfortable. So buy a pair or more and and have fun!!!!","submissionTime":"2013-12-06T06:06:50","title":"Ecxcellent
+        headphones","upVotes":"4","downVotes":"0"},{"name":"Disney Minnie Mouse Bow-Tique
+        Headphones","overallRating":{"label":"Overall","rating":"5"},"productAttributes":[{"label":"Value","rating":"5"},{"label":"Meets
+        Expectations","rating":"5"}],"reviewer":"saraahen","reviewText":"Got this
+        for my daughter for her 3rd birthday. It is one of her favorite gifts! Now
+        she can jam to her tablet whenever she wants to!! Great price!!","submissionTime":"2013-01-17T15:34:49","title":"Love
+        It","upVotes":"4","downVotes":"0"},{"name":"Disney Minnie Mouse Bow-Tique
+        Headphones","overallRating":{"label":"Overall","rating":"5"},"reviewer":"Ednagirl","reviewText":"My
+        3 year old granddaughter loves these headphones and I get a kick out of seeing
+        her with that big pink bow on her head as she watches her shows on her pink
+        DVD player.\nShe was excited when she first saw the headphones. The ear parts
+        are soft for her little ears and it fits just right on her little head. It
+        also has room for adjustments for older kids, but its not too big. She was
+        wearing adult ones before and I had to keep adjusting them because they were
+        not made for children. We love these things! It''s a good buy.","submissionTime":"2013-11-13T05:46:57","title":"Great
+        headphones","upVotes":"3","downVotes":"0"}],"reviewStatistics":{"averageOverallRating":"4.25","overallRatingRange":"5","ratingDistributions":[{"count":"3","ratingValue":"1"},{"count":"2","ratingValue":"2"},{"count":"3","ratingValue":"3"},{"count":"9","ratingValue":"4"},{"count":"27","ratingValue":"5"}],"totalReviewCount":"44"},"availableOnline":true}'
+    http_version: 
+  recorded_at: Sun, 17 Sep 2017 17:42:43 GMT
+recorded_with: VCR 3.0.3

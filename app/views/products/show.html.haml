@@ -1,0 +1,21 @@
+= link_to 'Products list', products_path
+%h1= @product.name
+price: 
+= price(@product.price)
+
+%h2 product reviews
+
+- @product.reviews.each do | review|
+  %div
+    %h4=review.title
+    submission time:
+    = review.submission_time
+    %br
+    reviewer:
+    = review.reviewer
+    %br
+    overall rating:
+    = review.overall_rating
+    %br
+    = review.body
+  %hr
